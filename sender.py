@@ -4,7 +4,7 @@
 def addUser():
     pass
   
-def listUser():
+def searchUser():
   pass
 # Ici on ouvre le fichier de donnée
 fichier_donne = open('data.txt', 'r+')
@@ -25,4 +25,4 @@ while True:
   if ask == "1":
     addUser()
   elif ask == "2":
-    listUser()
+    searchUser()
