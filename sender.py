@@ -1,6 +1,11 @@
 # Importation
 
-
+# Definition des fonctions
+def addUser():
+    pass
+  
+def listUser():
+  pass
 # Ici on ouvre le fichier de donnée
 fichier_donne = open('data.txt', 'r+')
 
@@ -17,3 +22,7 @@ while True:
   if ask == "0":
     print("Merci d'avoir utilisé RepPhone, au revoir !")
     break
+  if ask == "1":
+    addUser()
+  elif ask == "2":
+    listUser()
