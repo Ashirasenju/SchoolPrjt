@@ -7,8 +7,13 @@ def addUser():
 def searchUser():
   pass
 # Ici on ouvre le fichier de donnée
-fichier_donne = open('data.txt', 'r+')
-
+fichier_donnee = open('data.txt', 'r+')
+data = []
+for i in fichier_donnee:
+  nom,prenom,num = i.split(",")
+  dict = {"nom" : nom, "prenom": prenom, "num": num}
+  data.append(dict)
+print(data)
 
 print("""Bonjour Bienvenue dans votre repertoire téléphonique !\n
 0- Quitter
