@@ -1,13 +1,17 @@
 # Importation
 
+
+
+# Ici on ouvre le fichier de donnée
+fichier_donne = open('data.txt', 'r+')
+
 # Definition des fonctions
 def addUser():
     pass
   
 def searchUser():
   pass
-# Ici on ouvre le fichier de donnée
-fichier_donne = open('data.txt', 'r+')
+
 
 
 print("""Bonjour Bienvenue dans votre repertoire téléphonique !\n
