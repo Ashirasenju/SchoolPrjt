@@ -9,7 +9,7 @@ for i in fichier_donnee:
     prenom,nom,num = i.split(",")
     dict={"nom":nom, "prenom":prenom, "num":num}
     data.append(dict)
-print(data)
+#print(data)
 
 while True:
   
@@ -31,4 +31,4 @@ while True:
       data.append(dict1)
       print(data)
     addUser()
-    break
+    
