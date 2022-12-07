@@ -25,9 +25,9 @@ while True:
       asknom=input('Entrez le nom du nouveau contact :  ')
       asknum=input('Entrez le numéro du nouveau contact :  ')
       dict1={}
-      dict1["nom1"]=asknom
-      dict1["prenom1"]=askprenom
-      dict1["num1"]=asknum
+      dict1["nom"]=asknom
+      dict1["prenom"]=askprenom
+      dict1["num"]=asknum
       data.append(dict1)
       print(data)
     addUser()
