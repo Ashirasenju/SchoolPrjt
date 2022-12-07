@@ -3,17 +3,22 @@
 
 
 
-
-# Exécution du choix 2
+# Definition des fonctions
+def addUser():
+    pass
+  
 def searchUser():
   pass
 # Ici on ouvre le fichier de donnée
 fichier_donnee = open('data.txt', 'r+')
 # On créé un tableau vide nommé 'data'
-
-# parcourir chaques valeurs du fichier data.txt ; les séparer par des virgules ; les mettre dans un dictionnaire nommé dict et ajouté chaques dictionnaires à la liste data.
-
-
+data = []
+# # parcourir chaques valeurs du fichier data.txt ; les séparer par des virgules ; les mettre dans un dictionnaire nommé dict et ajouté chaques dictionnaires à la liste data.
+for i in fichier_donnee:
+  nom,prenom,num = i.split(",")
+  dict = {"nom" : nom, "prenom": prenom, "num": num}
+  data.append(dict)
+print(data)
 # Création du menu des choix
 print("""Bonjour Bienvenue dans votre repertoire téléphonique !\n
 0- Quitter
@@ -43,12 +48,5 @@ while True:
   
   
   elif ask == "2":
-    for i in fichier_donnee:
-      nom,prenom,num = i.split(",")
-      dict = {"nom" : nom, "prenom": prenom, "num": num}
-      data.append(dict)
-      print(data)
-
-  else:
-    print("Ce choix n'existe pas")
-
+    searchUser()
+#coucou
