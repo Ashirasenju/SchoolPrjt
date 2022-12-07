@@ -11,7 +11,8 @@ def addUser():
   
 def searchUser():
   pass
-
+# Ici on ouvre le fichier de donnée
+fichier_donne = open('data.txt', 'r+')
 
 
 print("""Bonjour Bienvenue dans votre repertoire téléphonique !\n
@@ -20,6 +21,7 @@ print("""Bonjour Bienvenue dans votre repertoire téléphonique !\n
 2- Rechercher dans le répertoire
 """)
 # ici on créer une boucle infini afin d'effectuer pour une interface utilisateur simple
+# la commande necéssaire s'active selon le choix de l'utilisateur
 while True:
   ask = input("Quel est votre choix ? ")
   # Arret de la boucle si le choix est 0
