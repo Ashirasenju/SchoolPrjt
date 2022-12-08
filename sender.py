@@ -38,7 +38,8 @@ def searchUser(nom):
                   else:
                         break
 
-    
+def prettyListUser():
+      pass
 
 while True:
   
@@ -53,3 +54,5 @@ while True:
   elif ask == "2":
     n = input("Quelle est le nom à chercher ?")
     searchUser(n)
+  elif ask == "3":
+      prettyListUser()
