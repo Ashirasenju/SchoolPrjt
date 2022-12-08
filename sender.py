@@ -22,6 +22,7 @@ for i in fichier_donnee:
     data.append(dict_)
 
 def searchUser(nom):
+      # ici les .lower() serve a rendre insensible à la casse
       for i in data:
             if i["nom"].lower() == nom.lower():
                   print(i["num"])
