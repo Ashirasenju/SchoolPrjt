@@ -15,16 +15,29 @@ def addUser():
       dict1["num"]=asknum
       data.append(dict1)
       fichier_donnee.write(asknom + "," + askprenom + "," + asknum + "\n")
-
-def searchUser():
-      
-
-
+      print("Utilisateur Ajouté(e)")
 for i in fichier_donnee:
     prenom,nom,num = i.split(",")
     dict_={"nom":nom, "prenom":prenom, "num":num}
     data.append(dict_)
-#print(data)
+
+def searchUser(nom):
+      for i in data:
+            if i["nom"].lower() == nom.lower():
+                  print(i["num"])
+                  break
+            elif i["prenom"].lower() == nom.lower():
+                  print(i["num"])
+                  break
+            else:
+                  ask_2 = input("Se nom n'existe pas... Voulez vous l'ajouter ?")
+                  if ask_2 == "oui" or "Oui" or "y":
+                        addUser()
+                        break
+                  else:
+                        break
+
+    
 
 while True:
   
@@ -37,5 +50,5 @@ while True:
   elif ask == "1":
     addUser()
   elif ask == "2":
-        
-    
+    n = input("Quelle est le nom à chercher ?")
+    searchUser(n)
