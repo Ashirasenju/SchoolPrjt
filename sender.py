@@ -1,10 +1,15 @@
+
+#Creation du menu
 print("""Bonjour Bienvenue dans votre repertoire téléphonique !\n
 0- Quitter
 1- Ecrire dans le répertoire
 2- Rechercher dans le répertoire
 """)
 data=[]
+#ouverture du fichier data.txt correspondant au repertoire telephonique 
 fichier_donnee = open('data.txt', 'r+')
+
+#creation de la fonction permettant d'ajouter un contact au repertoire telephonique
 def addUser():
       askprenom=input('Entrez le prénom du nouveau contact :  ')
       asknom=input('Entrez le nom du nouveau contact :  ')
@@ -21,8 +26,9 @@ for i in fichier_donnee:
     dict_={"nom":nom, "prenom":prenom, "num":num}
     data.append(dict_)
 
+#creation de la fonction permettant de rechercher un contact et d'en ajouter si le contact n'existe pas
 def searchUser(nom):
-      # ici les .lower() serve a rendre insensible à la casse
+      # ici les .lower() serve a rendre insensible à la casse(donc ca ne tient pas compte des majuscules et minuscules )
       for i in data:
             if i["nom"].lower() == nom.lower():
                   print(i["num"])
@@ -37,7 +43,7 @@ def searchUser(nom):
                         break
                   else:
                         break
-
+#creation d'une fonction supplementaire permettant simplement de voir la liste de contact 
 def prettyListUser():
       pass
 
