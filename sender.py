@@ -42,7 +42,7 @@ def searchUser(nom):
                   break
             else:
                   ask_2 = input("Ce nom n'existe pas... Voulez vous l'ajouter ?")
-                  if ask_2 == "oui" or "Oui" or "y":
+                  if ask_2 == "oui" or "Oui" or "yes" or "Yes":
                         addUser()
                         break
                   else:
@@ -53,11 +53,12 @@ def prettyListUser():
             name = i["nom"]
             first_name = i["prenom"]
             Numero = i["num"]
-            print(f"{name} {first_name} -> {num}")      
+            print(f"{name} {first_name} -> {Numero}")      
 
+#création de la boucle des choix
 while True:
   
-  ask = input("Quel est votre choix ? ")
+  ask = input("\n Quel est votre choix ? ")
 
   if ask == "0":
     print("Merci d'avoir utilisé RepPhone, au revoir !")
