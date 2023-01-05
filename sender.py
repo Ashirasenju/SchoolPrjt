@@ -23,7 +23,7 @@ def addUser():
       # Assignation des données au dictionnaire
       data.append(dict1)
       # Ecriture des données sur le fichier
-      fichier_donnee.write(asknom + "," + askprenom + "," + asknum + "\n")
+      fichier_donnee.write("\n"+asknom + "," + askprenom + "," + asknum + "\n")
       print("Utilisateur Ajouté(e)")
 for i in fichier_donnee:
     prenom,nom,num = i.split(",")
