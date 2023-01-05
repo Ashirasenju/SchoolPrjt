@@ -32,22 +32,28 @@ for i in fichier_donnee:
 
 #creation de la fonction permettant de rechercher un contact et d'en ajouter si le contact n'existe pas
 def searchUser(nom):
+      
+      iteration_number = len(data)
+      it = 0
       # ici les .lower() servent à rendre insensible à la casse(donc ca ne tient pas compte des majuscules et minuscules )
       for i in data:
+
             if i["nom"].lower() == nom.lower():
-                  print(i["num"])
+                  print(i["nom"], i["prenom"], "-->", i["num"])
                   break
             elif i["prenom"].lower() == nom.lower():
-                  print(i["num"])
+                  print(i["nom"], i["prenom"], "-->", i["num"])
                   break
-            else:
+            elif iteration_number == i:
                   ask_2 = input("Ce nom n'existe pas... Voulez vous l'ajouter ? (y/n)")
                   if ask_2 == "y":
                         addUser()
                         break
                   elif ask_2 == "n":
                         break
-                  break
+            else:
+                  it=it+1
+                  pass
 # Creation d'une fonction supplementaire permettant simplement de voir la liste de contact de manière agréable.
 def prettyListUser():
       for i in data:
