@@ -41,12 +41,13 @@ def searchUser(nom):
                   print(i["num"])
                   break
             else:
-                  ask_2 = input("Ce nom n'existe pas... Voulez vous l'ajouter ?")
-                  if ask_2 == "oui" or "Oui" or "yes" or "Yes":
+                  ask_2 = input("Ce nom n'existe pas... Voulez vous l'ajouter ? (y/n)")
+                  if ask_2 == "y":
                         addUser()
                         break
-                  else:
+                  elif ask_2 == "n":
                         break
+                  break
 # Creation d'une fonction supplementaire permettant simplement de voir la liste de contact de manière agréable.
 def prettyListUser():
       for i in data:
