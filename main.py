@@ -19,7 +19,7 @@ while len(select) < 30:
 
 for x in select:
     q = qcm[x]
-    
+
     questions.append(q)
 
 #fin de sélection.

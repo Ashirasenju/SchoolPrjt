@@ -5,14 +5,14 @@ Quel événement de 1934 contribua à  la création du Front populaire ? A-Le co
 Quel événement est à l'origine de la crise des années 30 ? A-La révolution Russe B-La montée du fascisme C-La première guerre mondiale D-Le Krach de Wall-Street;;D
 Lequel de ces pays est une île ? A-France B-Pays-Bas C-Australie D-Corée;;C
 Quelle est la couleur du cheval blanc d'Henri 4 A-Vert B-Rouge C-Gris D-Blanc;;D
-Un octet correspond à  A-1bit B-4 bits C-8 bits D-32 bits;;C
-Avec 1 octet on peut coder A-255 valeurs B-8 valeurs C-16 valeurs D-256 valeurs;;D
+Un octet correspond à ? A-1bit B-4 bits C-8 bits D-32 bits;;C
+Avec 1 octet on peut coder ? A-255 valeurs B-8 valeurs C-16 valeurs D-256 valeurs;;D
 Qu'est ce que Microsoft Windows ? A-Un type d'ordinateur B-Un système d'exploitation C-Un système de gestion de bases de données;;B
-Le système binaire utilise la base A-2 B-10 C-8 D-16 E-Aucune de ces réponses n'est vraie.;;A
-Dans la mythologie gréco-romaine les dieux se réunissaient sur A-Le mont Sinaï B-Le Vésuve C-Le mont Olympe;;C
-Dans la mythologie grecque Pégase est A-Un cheval ailé B-Une homme avec un tête d'aigle C-Un géant;;A
+Le système binaire utilise la base ? A-2 B-10 C-8 D-16 E-Aucune de ces réponses n'est vraie.;;A
+Dans la mythologie gréco-romaine les dieux se réunissaient sur ? A-Le mont Sinaï B-Le Vésuve C-Le mont Olympe;;C
+Dans la mythologie grecque Pégase est ? A-Un cheval ailé B-Une homme avec un tête d'aigle C-Un géant;;A
 En quelle année François Mitterrand a-t-il été élu président de la République française ? A-1974 B-1976 C-1981 D-1986;;C
-Quand l'armistice de la seconde guerre mondiale a-t-elle été signée A-Le 8 Mai 1945 B-Le 14 Juillet 1940 C-Le 11 Novembre 1945 D-Le 18 Juin 1940;;A
+Quand l'armistice de la seconde guerre mondiale a-t-elle été signée ? A-Le 8 Mai 1945 B-Le 14 Juillet 1940 C-Le 11 Novembre 1945 D-Le 18 Juin 1940;;A
 Avec quel instrument peut-on ouvrir une porte ? A-Un chevalet B-Une bobine C-Une poignée;;C
 Quel mot désigne l'élevage des oiseaux ? A-L'ostréiculture B-La cuniculture C-L'apiculture D-L'aviculture;;D
 Quelle est la méthode basée sur la persuasion par la répétition ? A-Coué B-Cauet C-Couderc D-Courbet;;A
@@ -24,7 +24,7 @@ Quel autre nom donne-t-on aux globules blancs ? A-Leucocytes B-Plaquettes C-Trig
 Sous le règne de quel roi Colbert fut-il ministre des finances ? A-Louis XIII B-Louis XIV C-Louis XV D-Louis XVI;;B
 Où se trouve le siège de l'UNESCO ? A-Londres B-Paris C-New York D-Genève;;B
 Qui fut la première présidente du Parlement européen ? A-Edith CRESSON B-Simone VEIL C-Margaret THATCHER D-Aucune femme n'a occupé ce poste;;D
-Le saturnisme est une maladie due à une intoxication au A-Plomb B-Fer C-Cuivre D-Aluminium;;A
+Le saturnisme est une maladie due à une intoxication au ? A-Plomb B-Fer C-Cuivre D-Aluminium;;A
 Quelle ville française n'est pas située sur le Rhône ? A-Grenoble B-Avignon C-Lyon D-Vienne;;A
 A quelle distance approximative correspond un degré de latitude terrestre ? A-111 km B-62 km C-8 km D-34 km;;A
 Quel département n'est pas frontalier avec l'Italie ? A-Les Alpes-de-Haute-Provence B-Les Hautes-Alpes C-La Haute-Savoie D-Le Vaucluse;;D
