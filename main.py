@@ -33,8 +33,8 @@ for quest in questions:
     nb+=1
     a = quest[0]
     a=a.split(';;')
-    question, reponse = a[0].split("?")
-    print('Question n°',nb, ' : ',question)
+    question, reponse = a[0].split("A-")
+    print('Question n°',nb, ' : ',"A-",question)
     print(reponse)
     
     rep = input("Entrez votre réponse : ")
